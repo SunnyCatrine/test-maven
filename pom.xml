@@ -142,12 +142,12 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>nexus</id>
-      <url>http:/localhost:9999/tratata</url>
+      <id>git</id>
+      <url>https://github.com/SunnyCatrine/test-maven.git</url>
     </snapshotRepository>
     <repository>
-      <id>nexus</id>
-      <url>http:/localhost:9999/trututu</url>
+      <id>git</id>
+      <url>https://github.com/SunnyCatrine/test-maven.git</url>
     </repository>
   </distributionManagement>
 
