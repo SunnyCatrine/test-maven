@@ -31,5 +31,10 @@ replay_pid*
 
 # all classes after compilation
 **/out/
+**/target/
+
+#release files
+*.releaseBackup
+release.properties
 
 
