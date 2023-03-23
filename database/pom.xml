@@ -17,10 +17,4 @@
         </dependency>
     </dependencies>
 
-
-    <build>
-        <finalName>database</finalName>
-    </build>
-
-
 </project>
