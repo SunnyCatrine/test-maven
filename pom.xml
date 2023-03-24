@@ -144,11 +144,11 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>git</id>
+      <id>github.com</id>
       <url>https://github.com/SunnyCatrine/test-maven.git</url>
     </snapshotRepository>
     <repository>
-      <id>git</id>
+      <id>github.com</id>
       <url>https://github.com/SunnyCatrine/test-maven.git</url>
     </repository>
   </distributionManagement>
