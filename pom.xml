@@ -22,38 +22,39 @@
     <maven.compiler.target>${java.version}</maven.compiler.target>
   </properties>
 
-<!--  <dependencyManagement>-->
-<!--    <dependencies>-->
-<!--      <dependency>-->
-<!--        <groupId>jakarta.servlet</groupId>-->
-<!--        <artifactId>jakarta.servlet-api</artifactId>-->
-<!--        <version>5.0.0</version>-->
-<!--        <scope>provided</scope>-->
-<!--      </dependency>-->
-<!--      <dependency>-->
-<!--        <groupId>org.postgresql</groupId>-->
-<!--        <artifactId>postgresql</artifactId>-->
-<!--        <version>42.5.4</version>-->
-<!--        <scope>runtime</scope>-->
-<!--      </dependency>-->
-<!--      <dependency>-->
-<!--        <groupId>junit</groupId>-->
-<!--        <artifactId>junit</artifactId>-->
-<!--        <version>4.13.2</version>-->
-<!--        <scope>test</scope>-->
-<!--      </dependency>-->
-<!--      <dependency>-->
-<!--        <groupId>com.thoughtworks.xstream</groupId>-->
-<!--        <artifactId>xstream</artifactId>-->
-<!--        <version>1.4.20</version>-->
-<!--      </dependency>-->
-<!--    </dependencies>-->
-<!--  </dependencyManagement>-->
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>jakarta.servlet</groupId>
+        <artifactId>jakarta.servlet-api</artifactId>
+        <version>5.0.0</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.5.4</version>
+        <scope>runtime</scope>
+      </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.thoughtworks.xstream</groupId>
+        <artifactId>xstream</artifactId>
+        <version>1.4.20</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <scm>
     <connection>scm:git:git@github.com:SunnyCatrine/test-maven.git</connection>
     <developerConnection>scm:git:git@github.com:SunnyCatrine/test-maven.git</developerConnection>
     <url>https://github.com/SunnyCatrine/test-maven</url>
+    <tag>test-maven-1.0.0</tag>
   </scm>
 
   <build>
