@@ -51,9 +51,9 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com:SunnyCatrine/test-maven.git</connection>
-    <developerConnection>scm:git:git@github.com:SunnyCatrine/test-maven.git</developerConnection>
-    <url>https://github.com/SunnyCatrine/test-maven</url>
+    <connection>scm:git:https://github.com/SunnyCatrine/test-maven.git</connection>
+    <developerConnection>scm:git:https://github.com/SunnyCatrine/test-maven.git</developerConnection>
+    <url>https://github.com/SunnyCatrine/test-maven.git</url>
     <tag>test-maven-1.0.0</tag>
   </scm>
 
