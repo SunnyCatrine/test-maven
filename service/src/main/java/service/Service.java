@@ -1,7 +1,7 @@
 package service;
 
-import dao.Dao;
+//import dao.Dao;
 
 public class Service {
-    Dao dao = new Dao();
+//    Dao dao = new Dao();
 }
