@@ -113,28 +113,28 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.10.1</version>
         </plugin>
-<!--        <plugin>-->
-<!--          <groupId>org.apache.maven.plugins</groupId>-->
-<!--          <artifactId>maven-resources-plugin</artifactId>-->
-<!--          <version>3.3.0</version>-->
-<!--          <executions>-->
-<!--            <execution>-->
-<!--              <id>copy-files-from-papka-to-target</id>-->
-<!--              <goals>-->
-<!--                <goal>copy-resources</goal>-->
-<!--              </goals>-->
-<!--              <phase>verify</phase>-->
-<!--              <configuration>-->
-<!--                <outputDirectory>${project.basedir}/target</outputDirectory>-->
-<!--                <resources>-->
-<!--                  <resource>-->
-<!--                    <directory>${project.basedir}/papka</directory>-->
-<!--                  </resource>-->
-<!--                </resources>-->
-<!--              </configuration>-->
-<!--            </execution>-->
-<!--          </executions>-->
-<!--        </plugin>-->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.3.0</version>
+          <executions>
+            <execution>
+              <id>copy-files-from-papka-to-target</id>
+              <goals>
+                <goal>copy-resources</goal>
+              </goals>
+              <phase>verify</phase>
+              <configuration>
+                <outputDirectory>${project.basedir}/target</outputDirectory>
+                <resources>
+                  <resource>
+                    <directory>${project.basedir}/papka</directory>
+                  </resource>
+                </resources>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
