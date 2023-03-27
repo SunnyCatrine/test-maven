@@ -29,6 +29,9 @@
                             <goal>TestPlugin</goal>
                         </goals>
                         <phase>validate</phase>
+<!--                        <configuration>-->
+<!--                            <message>Message from database pom!</message>-->
+<!--                        </configuration>-->
                     </execution>
                 </executions>
             </plugin>
