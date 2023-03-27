@@ -11,6 +11,7 @@
     <module>database</module>
     <module>service</module>
     <module>web</module>
+    <module>test-maven-plugin</module>
   </modules>
 
   <packaging>pom</packaging>
