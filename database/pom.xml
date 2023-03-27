@@ -23,6 +23,14 @@
                 <groupId>com.cat</groupId>
                 <artifactId>test-maven-plugin</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>TestPlugin</goal>
+                        </goals>
+                        <phase>validate</phase>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
